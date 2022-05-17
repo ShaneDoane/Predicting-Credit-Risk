@@ -1,4 +1,4 @@
-# Credit_Risk_Analysis
+# Predicting-Credit-Risk
 
 ## Overview
 The purpose of this analysis is to utilize supervised machine learning algorithms to predict credit risk. Data was sourced from LendingClub. The dataset was for over 100,000 applications from Q1 2019. This analysis was conducted on the ~69,000 issued loans. Over 80 [variables](https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-different-Note-statuses-mean-) were used as features in the machine learning models. The LendingClub dataset has an unbalanced classification problem, since high risk loans are far outnumbered by low risk loans. Because of this, the models used throughout this analysis aim to accommodate that limitation. Algorithms used include: RandomOverSampler, SMOTE, ClusterCentroids (for Undersampling), SMOTEENN, Balanced Random Forests, and Easy Ensemble Classifier. 
